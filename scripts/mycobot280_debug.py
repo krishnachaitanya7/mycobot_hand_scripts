@@ -8,8 +8,8 @@ import rospy
 import moveit_commander
 import geometry_msgs.msg
 
-from mycobot280_library import add_box_to_scene
-from mycobot280_library import MyCobot280Operator
+from scripts.mycobot280_library_tutorial import add_box_to_scene
+from scripts.mycobot280_library_tutorial import MyCobot280Operator
 
 
 def main():
